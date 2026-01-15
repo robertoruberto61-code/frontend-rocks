@@ -8,6 +8,7 @@ useEffect(() => {
     if (count === 4) {
       setTitle("Il titolo ha superato il 4");
     }
+    
   }, [count]);
   useEffect(() => {
     if (count === 10) {

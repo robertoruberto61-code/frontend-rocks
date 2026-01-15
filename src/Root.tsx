@@ -4,12 +4,17 @@ import { Link } from "react-router";
 export const Root = () => {
   const [count, setCount] = useState(0);
   const [title, setTitle] = useState("Titolo iniziale");
-
-  useEffect(() => {
+useEffect(() => {
     if (count === 4) {
       setTitle("Il titolo ha superato il 4");
     }
   }, [count]);
+  useEffect(() => {
+    if (count === 10) {
+      setTitle("il titolo ha superato il 10");
+    }
+  }, [count]);
+  
 
   return (
     <div className="h-dvh flex flex-col items-center justify-center">

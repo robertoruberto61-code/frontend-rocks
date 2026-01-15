@@ -1,3 +1,3 @@
 export const Detail = () => {
-  return <div> fabbiano baka </div>;
+  return <div> sybau fabian</div>;
 };
